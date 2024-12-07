@@ -14,7 +14,7 @@ def mod_inv(a, p):
         t = t + p
     return t
 
-# Exponentiation function (g^k mod p)
+# Exponentiation function (g power k mod p)
 def g_power_k_mod_p(base, exp, mod):
     result = 1
     for _ in range(exp):
