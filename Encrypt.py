@@ -19,7 +19,7 @@ def encrypt(public_key, message):
     secret_text = (c1, c2)           # Define the secret_text
     return secret_text
 
-
+#EX
 p, g, β = 47, 4, 6          # Public Key inputs
 message = 12                  # Message to encrypt
 public_key = (p, g, β)
